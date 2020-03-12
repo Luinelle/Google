@@ -17,8 +17,9 @@ body {
 
 }
 .button:hover {
-    border-style: outset;
-    border-color: #e6e6e6;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
 }
 
 input
@@ -33,6 +34,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+
+  .top
+  {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;  
   }
   li
   {
@@ -59,7 +67,9 @@ ul {
       text-align: center;
       padding-bottom: 7px;
       padding-top: 7px;
-      margin-right: 10px;
+      margin-right: 20px;
+      margin-top: 7px;
+      align-self: center;
     
 
   }
@@ -87,7 +97,8 @@ ul {
 
   }
   .bot {
-    margin-left: 15px;
+    padding-left: 15px;
+    margin-left: -1;
     border-style: solid;
     border-width: 1px;
     border-color: #e6e6e6;

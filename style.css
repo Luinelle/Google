@@ -1,5 +1,9 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
 }
 
 .button{
@@ -42,6 +46,7 @@ ul {
       padding-bottom: 0px;
     text-decoration: none;
     font-size: 12;
+     color: darkslategray;
   }
   li a:hover {
       text-decoration: underline;
@@ -64,36 +69,37 @@ ul {
     background-color:#f2f2f2;
     width: 100%;
     height: 15%;
+    color: grey;
  
   }
   p {
       margin-left: 30px;
       color: grey;
-      padding-bottom: 5px;
-      padding-top: 20px;
+      padding-bottom: 0px;
+      padding-top: 15px;
       text-align: left;
-      font-size: 14;
+      font-size: 13.5;
       border-top: solid;
       border-top-width: 1px;
       border-top-color: #e6e6e6;
   }
   .bot {
+      margin-left: 15px;
     border-style: solid;
     border-width: 1px;
     border-color: #e6e6e6;
     color: grey;
   }
  .bot li a {
-    margin-left: 30px;
     display: inline;
     float: left;
     font-size: 12;
     text-decoration: none;
     text-align: left;
     padding-bottom: 10px;
-      padding-top: 10px;
-   
-      }
+    padding-top: 10px;
+    color: grey;
+    }
 
   .bot li a:hover{
     text-decoration: underline;
